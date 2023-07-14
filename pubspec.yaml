@@ -3,11 +3,19 @@ description: A Flutter plugin for integrating Mapbox Maps inside a Flutter appli
 version: 0.16.0
 homepage: https://github.com/ithebest/mapbox_gl_modified
 
+publish_to: none
+
 dependencies:
   flutter:
     sdk: flutter
-  mapbox_gl_modified_platform_interface: ^0.16.0
-  mapbox_gl_modified_web: ^0.16.0
+  mapbox_gl_modified_platform_interface:
+    git:
+      url: https://github.com/asbn223/mapbox_gl_modified_platform_interface
+
+  mapbox_gl_modified_web:
+    git:
+      url: https://github.com/asbn223/mapbox_gl_modified_web
+
   collection: ^1.17.1
 
 
